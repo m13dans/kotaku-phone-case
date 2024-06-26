@@ -1,4 +1,5 @@
 import MaxWidthWrapper from "@/components/MaxWidthWrapper";
+import { Check } from "lucide-react";
 import Image from "next/image";
 
 export default function Home() {
@@ -20,6 +21,28 @@ export default function Home() {
                 <span className="bg-green-600 text-white px-2">Custom</span>{" "}
                 Phone Case
               </h1>
+              <p className="mt-8 text-lg lg:pr-10 max-w-prose text-center lg:text-left text-balance md:text-wrap">
+                Capture your favorite momories with your own,{" "}
+                <span>one-of-one</span> phone case. Kotaku Phone Case allows you
+                to protect your memories, not just your phone.
+              </p>
+
+              <ul className="mt-8 space-y-2 text-left font-medium flex flex-col items-center sm:items-start">
+                <div className="space-y-2">
+                  <li className="flex gap-1.5 items-center text-left">
+                    <Check className="h-5 w-5 shrink-0 text-green-600" /> High
+                    quality durable material
+                  </li>
+                  <li className="flex gap-1.5 items-center text-left">
+                    <Check className="h-5 w-5 shrink-0 text-green-600" /> 1 Year
+                    print guarantee
+                  </li>
+                  <li className="flex gap-1.5 items-center text-left">
+                    <Check className="h-5 w-5 shrink-0 text-green-600" /> Modern
+                    IPhone Model supportedk
+                  </li>
+                </div>
+              </ul>
             </div>
           </div>
         </MaxWidthWrapper>
